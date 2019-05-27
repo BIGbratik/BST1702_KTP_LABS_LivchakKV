@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Регистрация</title>
+		<link rel="stylesheet" href="{{STATIC_URL}}css/article.css">
+    </head>
+    <body>
+        <div class="content">
+            <h1>Введите данные для регистрации</h1>
+            <form method="POST">{% csrf_token %}
+				<h2>Введите логин (обязательное поле !!!):</h2>
+				<div class="new-login">
+					<input type="text" name="login" placeholder="Login" value="{{ form.title }}">
+				</div>
+				<h2>Введите адрес электронной почты:</h2>
+				<div class="new-email">
+					<input type="text" name="email" placeholder="E-mail" value="{{ form.title }}">
+				</div>
+				<h2>Введите пароль (обязательное поле !!!):</h2>
+				<div class="new-password">
+					<input type="text" name="password" placeholder="Password" value="{{ form.title }}">
+				</div>
+				<div class="form-button">
+					<input type="submit" value="Сохранить">
+				</div>
+            </form>
+            {{ form.errors }}
+        </div>
+    </body>
+</html>
