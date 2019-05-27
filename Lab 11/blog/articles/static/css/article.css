@@ -1,0 +1,122 @@
+body
+{
+	background:#4a76a8;
+	font-family:Times,Arial,sans-serif;
+	color:#ffffff;
+}
+
+.archive .header .main
+{
+	display:block;
+	width:400px;
+	height:100px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.archive .header a
+{
+	/*margin-top:30%;*/
+	float:right;
+	color:#ffffff;
+}
+
+.archive
+{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.post-title
+{
+	font-size:20pt;
+	color:#ffffff;
+}
+
+.article-author
+{
+	font-size:15pt;
+	width:80%;
+	float:left;
+}
+
+.article-created-data
+{
+	text-align:right;
+}
+
+.article a
+{
+	color:#ffffff;
+	text-align:right;
+	margin-left:25%;
+	font-size:15pt;
+}
+
+.article .header img
+{
+	display:block;
+	width:400px;
+	height:100px;
+	margin-right:auto;
+	margin-left:20%;
+	float:left;
+}
+
+.article .post-title
+{
+	margin-top:10%;
+}
+
+.content
+{
+	margin-left:40%;
+}
+
+.form-button
+{
+	margin-left:10%;
+	margin-top:10%;
+}
+
+.form-title
+{
+	margin-left:5%;
+}
+
+.form-text
+{
+	margin-left:5%;
+}
+
+.one-post.folded .article-info, .one-post.folded .article-text
+{
+	display:none
+}
+
+.one-post .article-info, .one-post .article-text
+{
+	display:block
+}
+
+.one-post-shadow
+{
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+	background: black;
+    z-index: -1;
+	opacity:0;
+}
+
+.paralaks img
+{
+	float:top;
+	width:100px;
+	height:100px;
+	position:absolute;
+}
+
